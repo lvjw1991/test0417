@@ -1,0 +1,44 @@
+jeesite
+jquery validate
+fancybox
+uploadify
+
+springboot
+zookeeper
+redis
+dubbo
+
+解压zookeeper-3.3.6.tar.gz
+zookeeper-3.3.6\conf
+新建zoo.cfg
+dataDir=...//zookeeper-3.3.6//zookeeper-3.3.6//data
+dataLogDir=...//zookeeper-3.3.6//zookeeper-3.3.6//log
+运行zookeeper-3.3.6\bin
+zkServer.cmd
+
+安装Redis-x64-3.2.100.msi
+运行redis-server.exe
+
+import from git
+http://zqkl.dadaozei.cn:8080/scm/git/uc
+import maven project
+team pull
+maven update project 
+删除D:\workspace\jar\com\wolf(queue)
+修改interface
+generatorConfig.xml
+pom.xml
+修改service
+dubbo.xml(org.apache.shiro.authc.AccountException: com.alibaba.dubbo.rpc.RpcException)
+clean install
+
+代码生成
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
+git config --global credential.helper store
+
+kanlan-is-api  
+实体类，service层接口
+kanlan-is-service
+service层实现，dao层接口，dao层实现
+kanlan-is-web
+action层
